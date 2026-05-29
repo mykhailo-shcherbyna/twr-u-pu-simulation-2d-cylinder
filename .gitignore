@@ -8,7 +8,6 @@ bin/
 # Ignore massive simulation data outputs
 *.h5
 *.hdf5
-analysis/results/
 results/
 
 # Ignore local IDE/Editor configurations
@@ -19,4 +18,3 @@ CMakeLists.txt.user
 # Ignore heavy media files
 *.gif
 *.mp4
-
