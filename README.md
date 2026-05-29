@@ -10,7 +10,7 @@ This engine solves the multi-group neutron diffusion equations coupled with isot
 
 - **Physics Engine:** Multi-group 2D cylindrical $(r, z)$ neutron diffusion solver.
 - **Kinetics Tracking:** Dynamically computes transmutation and decay chains for the $^{238}\text{U} \rightarrow {}^{239}\text{Pu}$ breeding cycle.
-- **HPC Parallelization:** Parallelized spatial mesh loops utilizing OpenMP directives for optimized multi-core execution.
+- **Parallelization:** Parallelized spatial mesh loops utilizing OpenMP directives for optimized multi-core execution.
 - **Data Architecture:** Fully object-oriented layout featuring custom `Grid`, `Cylinder`, `Cell`, and `Field` structural containers.
 - **Modern I/O:** High-speed data exporting using structured HDF5 files (`.h5`) for robust analysis.
 
