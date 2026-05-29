@@ -1,0 +1,22 @@
+# Ignore build artifacts
+build/
+bin/
+*.o
+*.a
+*.so
+
+# Ignore massive simulation data outputs
+*.h5
+*.hdf5
+analysis/results/
+results/
+
+# Ignore local IDE/Editor configurations
+.vscode/
+.idea/
+CMakeLists.txt.user
+
+# Ignore heavy media files
+*.gif
+*.mp4
+
